@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_nav_graph.xml"
+    app:startDestination="@id/breakingNewsFragment">
+
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.example.lionparceltestcase.ui.fragments.BreakingNewsFragment"
+        android:label="BreakingNewsFragment" >
+        <action
+            android:id="@+id/action_breakingNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoriesNewsFragment"
+        android:name="com.example.lionparceltestcase.ui.fragments.CategoriesNewsFragment"
+        android:label="CategoriesNewsFragment" >
+        <action
+            android:id="@+id/action_categoriesNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sourcesNewsFragment"
+        android:name="com.example.lionparceltestcase.ui.fragments.SourcesNewsFragment"
+        android:label="SourcesNewsFragment" >
+        <action
+            android:id="@+id/action_sourcesNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.example.lionparceltestcase.ui.fragments.ArticleFragment"
+        android:label="ArticleFragment" />
+    <fragment
+        android:id="@+id/savedNewsFragment"
+        android:name="com.example.lionparceltestcase.ui.fragments.SavedNewsFragment"
+        android:label="SavedNewsFragment" >
+        <action
+            android:id="@+id/action_savedNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+</navigation>
