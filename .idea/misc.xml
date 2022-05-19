@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/LionParcelTestCase/app/src/main/res/drawable/ic_fav.xml" value="0.209" />
+        <entry key="..\:/AndroidProjects/LionParcelTestCase/app/src/main/res/drawable/ic_news_4298.xml" value="0.209" />
+        <entry key="..\:/AndroidProjects/LionParcelTestCase/app/src/main/res/drawable/ic_sources.xml" value="0.209" />
+        <entry key="..\:/AndroidProjects/LionParcelTestCase/app/src/main/res/layout/activity_news.xml" value="0.2015625" />
+        <entry key="..\:/AndroidProjects/LionParcelTestCase/app/src/main/res/layout/article_preview.xml" value="0.2015625" />
+        <entry key="..\:/AndroidProjects/LionParcelTestCase/app/src/main/res/layout/fragment_article.xml" value="0.2015625" />
+        <entry key="..\:/AndroidProjects/LionParcelTestCase/app/src/main/res/layout/fragment_breaking_news.xml" value="0.2015625" />
+        <entry key="..\:/AndroidProjects/LionParcelTestCase/app/src/main/res/layout/fragment_search_news.xml" value="0.20052083333333334" />
+        <entry key="..\:/AndroidProjects/LionParcelTestCase/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidStudioProjects/LionParcelTestCase/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
         <entry key="..\:/AndroidStudioProjects/LionParcelTestCase/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/LionParcelTestCase/app/src/main/res/layout/fragment_article.xml" value="0.17074275362318841" />
